@@ -1,6 +1,7 @@
-const countCat = require("./src/count-cats");
+const countCat = require("./src/count-cats"),
+  dreamTeam = require("./src/dream-team.js");
 
-const scripts = [countCat];
+const scripts = [countCat, dreamTeam];
 
 const currentScriptIndex = process.argv[2];
 
